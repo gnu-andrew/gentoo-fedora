@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-util/mock/mock-1.0.3.ebuild,v 1.2 2011/11/02 22:44:19 vapier Exp $
 
@@ -8,7 +8,7 @@ inherit eutils bash-completion-r1
 
 DESCRIPTION="Tool for checking common errors in RPM packages"
 HOMEPAGE="http://rpmlint.zarb.org/"
-SRC_URI="http://${PN}.zarb.org/download/${P}.tar.xz"
+SRC_URI="http://sourceforge.net/projects/rpmlint/files/rpmlint-1.4.tar.xz/download -> rpmlint-1.4.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
