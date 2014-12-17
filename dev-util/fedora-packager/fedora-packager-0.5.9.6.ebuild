@@ -22,6 +22,7 @@ RDEPEND="
 	dev-util/rpmlint
 	dev-util/mock
 	net-misc/curl
+	dev-python/fedora
 	"
 
 src_configure() {
