@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="3"
@@ -22,7 +22,7 @@ IUSE=""
 
 RDEPEND="
 	dev-python/repoze-who
-	net-zope/zope-interface"
+	dev-python/zope-interface"
 DEPEND="
 	${RDEPEND}
 	dev-python/setuptools
