@@ -1,3 +1,7 @@
+  21 Dec 2015; Andrew John Hughes <gnu_andrew@member.fsf.org>
+  fedora-packager-0.5.9.6.ebuild:
+  dev-util/fedora-packager: Fix PYTHON_COMPAT usage.
+
   17 Dec 2014; Andrew John Hughes <gnu_andrew@member.fsf.org>
   fedora-packager-0.5.9.6.ebuild:
   Depend on dev-python/fedora.
