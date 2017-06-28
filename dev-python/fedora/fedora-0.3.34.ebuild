@@ -1,12 +1,11 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="3"
-PYTHON_DEPEND="2"
-SUPPORT_PYTHON_ABIS="1"
-RESTRICT_PYTHON_ABIS="3.*"
+EAPI="6"
 
-inherit distutils
+PYTHON_COMPAT=( python2_7 )
+
+inherit distutils-r1
 
 MY_PN="python-fedora"
 MY_P="${MY_PN}-${PV}"
@@ -28,7 +27,7 @@ RDEPEND="
 	dev-python/turbogears
 	dev-python/sqlalchemy
 	dev-python/decorator
-	dev-python/bugzilla
+	dev-python/python-bugzilla
 	dev-python/feedparser
 	dev-python/mako
 	dev-python/repoze-who-friendlyform

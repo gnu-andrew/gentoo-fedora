@@ -1,8 +1,9 @@
 
-EAPI=3
-PYTHON_DEPEND="2"
+EAPI=6
 
-inherit eutils python
+PYTHON_COMPAT=( python{2_7,3_4,3_5} )
+
+inherit eutils python-r1
 
 DESCRIPTION="Build tool for the Fedora project"
 HOMEPAGE="https://fedorahosted.org/koji/"
@@ -28,6 +29,7 @@ src_prepare() {
 	epatch \
 		"${FILESDIR}"/fedora-config.patch
 	sed -i -e 's/\tinstall/\tinstall -D/' "${S}/cli/Makefile" || die
+	eapply_user
 }
 
 src_compile() {
